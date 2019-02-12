@@ -1,6 +1,6 @@
 # spring-kafka-streams-example
 
-###Example Kafka Streams and Spring Cloud Stream
+### Example Kafka Streams and Spring Cloud Stream
 
 ##### build project
 ```
