@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: kafka1:9092
+          zkNodes: zoo1:2181
+      bindings:
+        message-out:
+          producer:
+            partitionKeyExpression: payload.id
+            partitionCount: 3
+          destination: message
+          contentType: application/json

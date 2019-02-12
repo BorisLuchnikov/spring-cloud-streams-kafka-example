@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    stream:
+      instanceIndex: 1
+      instanceCount: 1
+      kafka:
+        binder:
+          brokers: kafka1:9092
+          zkNodes: zoo1:2181
+          autoAddPartitions: true
+          minPartitionCount: 10
+          configuration:
+            num.stream.threads: 3
+      bindings:
+        message-in:
+          group: group
+          destination: message
+          contentType: application/json
+          consumer:
+            concurrency: 3
