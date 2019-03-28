@@ -1,4 +1,4 @@
-package com.bl.input.stream;
+package com.bl.output.stream;
 
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;

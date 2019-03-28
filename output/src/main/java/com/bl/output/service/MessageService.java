@@ -1,7 +1,7 @@
-package com.bl.input.service;
+package com.bl.output.service;
 
 import com.bl.model.dto.Message;
-import com.bl.input.stream.MessageStreams;
+import com.bl.output.stream.MessageStreams;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.MessageChannel;

@@ -37,7 +37,7 @@ services:
     - zoo1
 
   output:
-    image: input:0.0.0.0
+    image: output:0.0.0.0
     build:
       context: ./
       dockerfile: output_df
@@ -55,7 +55,7 @@ services:
     - zoo1
 
   input:
-    image: input:0.0.0.0
+    image: output:0.0.0.0
     build:
       context: ./
       dockerfile: input_df

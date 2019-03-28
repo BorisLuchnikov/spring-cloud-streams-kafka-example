@@ -1,6 +1,6 @@
-package com.bl.input.web;
+package com.bl.output.web;
 
-import com.bl.input.service.MessageService;
+import com.bl.output.service.MessageService;
 import com.bl.model.dto.Message;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

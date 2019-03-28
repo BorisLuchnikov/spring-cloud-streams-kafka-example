@@ -8,7 +8,7 @@ spring:
       bindings:
         message-out:
           producer:
-            partitionKeyExpression: payload.id
+            partitionKeyExtractorName: customPartitionKeyExtractor
             partitionCount: 3
           destination: message
           contentType: application/json

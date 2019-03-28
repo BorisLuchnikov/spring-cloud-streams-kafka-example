@@ -1,6 +1,6 @@
-package com.bl.input.config;
+package com.bl.output.config;
 
-import com.bl.input.stream.MessageStreams;
+import com.bl.output.stream.MessageStreams;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 
 @EnableBinding(MessageStreams.class)

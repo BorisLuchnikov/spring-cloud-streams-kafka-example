@@ -1,4 +1,4 @@
-package com.bl.input.service;
+package com.bl.output.service;
 
 import com.bl.model.dto.Message;
 import org.springframework.cloud.stream.binder.PartitionKeyExtractorStrategy;
